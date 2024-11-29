@@ -1,0 +1,68 @@
+body{
+  font-family: "Zen Loop", serif;
+  background-image: url("fundo.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  font-weight: 1000;
+  text-shadow: 4px 4px 4px black;
+  font-size: 35px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+img{
+  max-width: 90%;
+}
+footer{
+  font-family: "Sacramento", serif;
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.nomelink{
+  text-decoration:none;
+  color:white;
+}
+
+.nomelink:hover{
+  color: rgb(181,54,54);
+  text-decoration: underline;
+}
+
+button{
+  font-family: "Bebas Neue", serif;
+  font-size: 25px;
+  background-color: brown;
+  border: 1px solid brown;
+  color: white;
+  margin: 20px;
+  border-radius: 200px;
+  padding: 15px;
+  text-shadow: 1px 2px 2px black;
+}
+
+button:hover{
+  background-color: #FFEB3B;
+  border: 1px solid #FFEB3B;
+  font-weight: 800;
+  color: black;
+}
+
+main{
+  max-width: 90%;
+  text-align: center;
+  flex:1;
+  padding: 1em;
+}
+
+.passo{
+  display: none;
+}
+
+.passo.ativo{
+  display: block;
+}
